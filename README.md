@@ -1,2 +1,2 @@
-# rest-api
-This repository contains documentation for the leafal.io REST JSON API.
+# leafal.io JSON API
+This repository contains documentation for the leafal.io JSON API.
