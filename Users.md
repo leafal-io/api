@@ -2,12 +2,34 @@
 ## /users/
 
 ### GET Fields
-Field | Description
-------|------------
-**query** | A user lookup query.
+Field | Description | Required
+------|-------------|---------
+**query** | A user lookup query. | Yes
+
+### Headers
+Header | Description | Required
+-------|-------------|---------
+**Client-Id** | The Client ID to identify your application. | Yes
+
+### Example
 
 Lookup queries define what specified information of the user you want to use to look up their user info. The `username:leafal.io` query will look up a user by 
 the username or profile URL `leafal.io`. The `id:1` query will look up a user with the User ID `1`.
+
+**URL**
+```
+    https://www.leafal.io/api/users?query=id:1
+```
+
+**Headers** *(Represented in JSON)*
+
+**note:** For the `Client-Id` field, a valid Client-Id should be represented
+
+```
+    {
+        "Client-Id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    }
+```
 
 ### Expected response
 Field | Description
