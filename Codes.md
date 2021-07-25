@@ -15,13 +15,16 @@ There was no application found with the provided public key.
 
 ## 903: Username and/or password were empty.
 **Specific to:** `/auth/token`.
+
 The username and/or password fields were left empty, whether intentional or not. 
 - [Temporary] In rare cases before the 2022 leafal.io Web relaunch, Error 903 can be resolved with the same solution at Error 901, by adding `/index.php` to the end of the request path.
 
 ## 904: User not found.
 **Specific to:** `/auth/token`.
+
 The API could not identify a user with the provided information.
 
 ## 905: Invalid password.
 **Specific to:** `/auth/token`.
+
 The provided password did not match the database records.
