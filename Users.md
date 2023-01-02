@@ -23,3 +23,10 @@ Field | Description
     "display_name": "leaf."
 }
 ```
+
+### Possible Errors
+Error Code | What happened
+-----------|--------------
+**400: Bad Request** | Missing request body or missing user query. Error message is provided.
+**404: Not Found** | A user matching the provided query could not be found.
+**500: Server Error** | A database error occurred.
