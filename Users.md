@@ -1,4 +1,4 @@
-# /users/
+# GET /users/
 
 ## Request Body
 Field | Description
