@@ -24,7 +24,7 @@ Field | Description
 }
 ```
 
-### Possible Errors
+## Possible Errors
 Error Code | What happened
 -----------|--------------
 **400: Bad Request** | Missing request body or missing user query. Error message is provided.
